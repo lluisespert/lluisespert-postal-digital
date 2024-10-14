@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .columna {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 150x; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .grosor {
+
+    border-style: solid;
+    border-width: 10px;
+
+  }
+
+  .anchoFormulario {
+
+    max-width: 350px;
+
+  }
+
+  .imagen {
+
+    float: right;
+
+  }
+
+  .botonCentrado {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
